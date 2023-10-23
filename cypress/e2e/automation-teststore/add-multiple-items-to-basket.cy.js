@@ -22,5 +22,7 @@ describe("add multiple items to basket", () => {
         cy.get('.dropdown-toggle > .label').contains(3)
         //cy.get('.dropdown-toggle > .fa').click()
     })
+    //sample change
+    
 
 })
