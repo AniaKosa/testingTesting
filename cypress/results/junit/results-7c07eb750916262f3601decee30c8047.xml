@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.954" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-12-04T14:08:00" tests="0" file="cypress/e2e/automation-teststore/count-no-of-products.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="count no of products and validate add to cart" timestamp="2023-12-04T14:08:00" tests="1" time="3.916" failures="0">
+    <testcase name="count no of products and validate add to cart Count no of products" time="1.681" classname="Count no of products">
+    </testcase>
+  </testsuite>
+</testsuites>

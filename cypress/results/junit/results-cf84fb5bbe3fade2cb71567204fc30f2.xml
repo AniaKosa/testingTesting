@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.406" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-12-04T14:09:22" tests="0" file="cypress/e2e/webdriver-uni/js-alerts.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="handle allerts" timestamp="2023-12-04T14:09:22" tests="4" time="2.367" failures="0">
+    <testcase name="handle allerts Confirm js allert contains a given text" time="1.134" classname="Confirm js allert contains a given text">
+    </testcase>
+    <testcase name="handle allerts Validate confirm alert box works correctly when clicking ok" time="0.419" classname="Validate confirm alert box works correctly when clicking ok">
+    </testcase>
+    <testcase name="handle allerts Validate confirm alert box works correctly when clicking cancel" time="0.411" classname="Validate confirm alert box works correctly when clicking cancel">
+    </testcase>
+    <testcase name="handle allerts Validate alert box using a stub" time="0.397" classname="Validate alert box using a stub">
+    </testcase>
+  </testsuite>
+</testsuites>

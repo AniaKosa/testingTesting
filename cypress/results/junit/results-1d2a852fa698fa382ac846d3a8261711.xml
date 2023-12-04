@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.665" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-12-04T14:09:16" tests="0" file="cypress/e2e/webdriver-uni/iframe.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Handling iframe and modals" timestamp="2023-12-04T14:09:16" tests="1" time="1.637" failures="0">
+    <testcase name="Handling iframe and modals Handle webdriveruni iframe and modal" time="1.642" classname="Handle webdriveruni iframe and modal">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.295" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-12-04T14:09:33" tests="0" file="cypress/e2e/webdriver-uni/scroll, mouse-actions.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test mouse actions" timestamp="2023-12-04T14:09:33" tests="4" time="2.270" failures="0">
+    <testcase name="Test mouse actions Scroll into view" time="0.950" classname="Scroll into view">
+    </testcase>
+    <testcase name="Test mouse actions Drag and drop an element" time="0.422" classname="Drag and drop an element">
+    </testcase>
+    <testcase name="Test mouse actions Doubble click the element" time="0.392" classname="Doubble click the element">
+    </testcase>
+    <testcase name="Test mouse actions Hold the mouse key" time="0.486" classname="Hold the mouse key">
+    </testcase>
+  </testsuite>
+</testsuites>
