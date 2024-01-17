@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.454" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-01-17T13:45:08" tests="0" file="cypress/e2e/automation-teststore/alias-invoke.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Alias and invoke" timestamp="2024-01-17T13:45:08" tests="1" time="11.427" failures="1">
+    <testcase name="Alias and invoke Calculate total of normal and sale product" time="2.243" classname="Calculate total of normal and sale product">
+      <failure message="expected 660.5 to equal 656.5" type="AssertionError"><![CDATA[AssertionError: expected 660.5 to equal 656.5
+    at ./cypress/e2e/automation-teststore/alias-invoke.cy.js/</ (webpack:///./cypress/e2e/automation-teststore/alias-invoke.cy.js:52:34)
+    at getRet (https://automationteststore.com/__cypress/runner/cypress_runner.js:145118:20)
+    at tryCatcher (https://automationteststore.com/__cypress/runner/cypress_runner.js:18744:23)
+    at ../../node_modules/bluebird/js/release/method.js/module.exports/Promise.try (https://automationteststore.com/__cypress/runner/cypress_runner.js:16018:29)
+    at thenFn (https://automationteststore.com/__cypress/runner/cypress_runner.js:145129:60)
+    at then (https://automationteststore.com/__cypress/runner/cypress_runner.js:145378:21)
+    at wrapped (https://automationteststore.com/__cypress/runner/cypress_runner.js:160610:19)
+    at ../driver/src/cypress/command_queue.ts/runCommand (https://automationteststore.com/__cypress/runner/cypress_runner.js:159437:15)
+    at tryCatcher (https://automationteststore.com/__cypress/runner/cypress_runner.js:18744:23)
+    at ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler (https://automationteststore.com/__cypress/runner/cypress_runner.js:16679:31)
+    at ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise (https://automationteststore.com/__cypress/runner/cypress_runner.js:16736:18)
+    at ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseCtx (https://automationteststore.com/__cypress/runner/cypress_runner.js:16773:10)
+    at _drainQueueStep (https://automationteststore.com/__cypress/runner/cypress_runner.js:13455:12)
+    at _drainQueue (https://automationteststore.com/__cypress/runner/cypress_runner.js:13444:24)
+    at ../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues (https://automationteststore.com/__cypress/runner/cypress_runner.js:13460:16)
+    at ../../node_modules/bluebird/js/release/async.js/</Async/this.drainQueues (https://automationteststore.com/__cypress/runner/cypress_runner.js:13330:14)
+
+      + expected - actual
+
+      -660.5
+      +656.5
+      ]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
