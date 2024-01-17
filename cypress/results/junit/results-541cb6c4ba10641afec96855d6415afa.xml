@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="1.071" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2023-12-04T14:08:59" tests="0" file="cypress/e2e/webdriver-uni/data-tables.cy.js" time="0.000" failures="0">
-  </testsuite>
-  <testsuite name="Handling data from tables" timestamp="2023-12-04T14:08:59" tests="1" time="1.054" failures="0">
-    <testcase name="Handling data from tables Calculate and assert the age of a given user, based on last name" time="1.020" classname="Calculate and assert the age of a given user, based on last name">
-    </testcase>
-  </testsuite>
-</testsuites>

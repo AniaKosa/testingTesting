@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.803" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-01-15T13:28:05" tests="0" file="cypress/e2e/webdriver-uni/checkboxes.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="verify checkboxes" timestamp="2024-01-15T13:28:05" tests="3" time="0.777" failures="1">
+    <testcase name="verify checkboxes &quot;before each&quot; hook for &quot;Check and validate checkboxes&quot;" time="0.000" classname="&quot;before each&quot; hook for &quot;Check and validate checkboxes&quot;">
+      <failure message="`cy.visit()` failed trying to load:
+
+https://www.automationteststore.com/Dropdown-Checkboxes-RadioButtons/index.html
+
+The response we received from your web server was:
+
+  &gt; 404: Not Found
+
+This was considered a failure because the status code was not `2xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `verify checkboxes`" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+https://www.automationteststore.com/Dropdown-Checkboxes-RadioButtons/index.html
+
+The response we received from your web server was:
+
+  > 404: Not Found
+
+This was considered a failure because the status code was not `2xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `verify checkboxes`
+    at <unknown> (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:147661:84)
+    at visitFailedByErr (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:147069:12)
+    at <unknown> (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:147644:13)
+    at tryCatcher (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:18744:23)
+    at Promise._settlePromiseFromHandler (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:16679:31)
+    at Promise._settlePromise (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:16736:18)
+    at Promise._settlePromise0 (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:16781:10)
+    at Promise._settlePromises (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:16857:18)
+    at _drainQueueStep (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:13451:12)
+    at _drainQueue (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:13444:9)
+    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:13460:5)
+    at Async.drainQueues (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:13330:14)
+From Your Spec Code:
+    at Context.eval (webpack:///./cypress/support/commands.js:36:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

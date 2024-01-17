@@ -7,7 +7,12 @@ describe("Test Contact Us form via automation test store", ()=>{
     cy.fixture('userDetails').as('user')
   })
 
-    it("Should be able to submit succesfully", function(){
+    it("Should be able to submit succesfully", {
+      retries:{
+        runMode:2,
+        openMode: 2
+      }
+    }, function(){
       cy.visit('https://automationteststore.com/')
       cy.xpath("//a[normalize-space()='Contact Us']").click().then(function(getName){
         cy.log("Name of the button is: " + getName.text())
