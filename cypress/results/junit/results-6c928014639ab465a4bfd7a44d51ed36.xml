@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.155" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2024-01-18T13:51:32" tests="0" file="cypress/e2e/webdriver-uni/contact-us.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test Contact Us form" timestamp="2024-01-18T13:51:32" tests="2" time="4.115" failures="2">
+    <testcase name="Test Contact Us form Should be able to submit succesfully" time="1.480" classname="Should be able to submit succesfully">
+      <failure message="data is not defined" type="ReferenceError"><![CDATA[ReferenceError: data is not defined
+    at Context.eval (webpack:///./cypress/e2e/webdriver-uni/contact-us.cy.js:29:67)]]></failure>
+    </testcase>
+    <testcase name="Test Contact Us form Should not be able to submit succesfully" time="0.728" classname="Should not be able to submit succesfully">
+      <failure message="data is not defined" type="ReferenceError"><![CDATA[ReferenceError: data is not defined
+    at Context.eval (webpack:///./cypress/e2e/webdriver-uni/contact-us.cy.js:49:67)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.207" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-01-18T14:26:36" tests="0" file="cypress/e2e/automation-teststore/iterate-over-element.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Itarate over elements" timestamp="2024-01-18T14:26:36" tests="4" time="9.170" failures="0">
+    <testcase name="Itarate over elements Log information of all products" time="2.331" classname="Log information of all products">
+    </testcase>
+    <testcase name="Itarate over elements Add specific product to basket" time="1.462" classname="Add specific product to basket">
+    </testcase>
+    <testcase name="Itarate over elements Add another specific product to basket" time="1.404" classname="Add another specific product to basket">
+    </testcase>
+    <testcase name="Itarate over elements Add the third product to the basket" time="1.538" classname="Add the third product to the basket">
+    </testcase>
+  </testsuite>
+</testsuites>

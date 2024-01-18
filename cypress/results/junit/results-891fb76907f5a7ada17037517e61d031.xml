@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.435" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-01-18T13:51:13" tests="0" file="cypress/e2e/webdriver-uni/browser-navigation.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="hompage validation" timestamp="2024-01-18T13:51:13" tests="1" time="3.390" failures="0">
+    <testcase name="hompage validation links validation" time="3.393" classname="links validation">
+    </testcase>
+  </testsuite>
+</testsuites>

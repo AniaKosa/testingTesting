@@ -21,7 +21,7 @@ module.exports = defineConfig({
     runMode: 1,
     openMode: 1
   },
-  projectId: "qedsk7",
+  projectId: 'qa3f6s',
   e2e: {
     setupNodeEvents(on, config) {
       const file = config.env.configFile || ''
