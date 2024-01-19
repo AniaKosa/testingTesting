@@ -10,7 +10,7 @@
     "triggerAllTests-dashboard": "npx cypress run --record --key 9a9eb3a0-3c31-4aed-9ab3-3d177080462e",
     "triggerWebdriverUni": "npx cypress run --spec cypress/e2e/webdriver-uni/*",
     "triggerAutoTestStore": "npx cypress run --spec cypress/e2e/automation-teststore/*",
-    "triggerAutoTestStore-dashboard": "npx cypress run --spec cypress/e2e/automation-teststore/* --record --key 0ccb15c0-6eea-47a3-ab8f-d65a762a5ad2",
+    "triggerAutoTestStore-dashboard": "npx cypress run --spec cypress/e2e/automation-teststore/* --record --key 9a9eb3a0-3c31-4aed-9ab3-3d177080462e --paralell",
     "jUnit-merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/allResults.xml",
     "delete-junit-report": "rm -rf cypress/results/junit/allResults.xml",
     "clear-results-folder": "rm -rf cypress/results/* || true",

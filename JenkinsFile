@@ -1,0 +1,37 @@
+pipeline {
+    agent any
+
+    tools {
+        nodejs "node"  
+
+        stages {
+            stage('Cypress testing in Paralell'){
+                paralell{
+                    stage('slave node 1'){
+                        agent{
+                            label "remote_node1"
+                        }
+                        steps{
+                            git url: 'https://github.com/AniaKosa/testingTesting.git'
+                            sh 'npm install'
+                            sh 'npm update'
+                            sh 'npm run triggerAutoTestStore-dashboard'
+                        }
+                    }
+
+                    stage('slave node 2'){
+                        agent{
+                            label "remote_node2"
+                        }
+                        steps{
+                            git url: 'https://github.com/AniaKosa/testingTesting.git'
+                            sh 'npm install'
+                            sh 'npm update'
+                            sh 'npm run triggerAutoTestStore-dashboard'
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
